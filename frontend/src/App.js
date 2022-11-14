@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-import GoalInput from './components/goals/GoalInput';
 import CourseGoals from './components/goals/CourseGoals';
+import GoalInput from './components/goals/GoalInput';
 import ErrorAlert from './components/UI/ErrorAlert';
 
 function App() {
